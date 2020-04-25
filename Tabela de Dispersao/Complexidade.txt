@@ -1,0 +1,9 @@
+            ICaso médioI     IPiorCasoI
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+I  Inserçao I   O(1)   I     O(n)      I
+I           I          I               I
+I  Procura  I   O(1)   I     O(n)      I
+I           I          I               I
+I  Remoção  I   O(1)   I     O(n)      I
+I           I          I               I
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
