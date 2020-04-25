@@ -1,2 +1,1 @@
-# ProgramacaoRecursiva
-Exercicios com programacão Recursiva
+# a Lot of Computer Science Algorithms
