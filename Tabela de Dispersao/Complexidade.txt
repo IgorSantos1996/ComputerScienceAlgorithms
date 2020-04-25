@@ -1,9 +1,10 @@
-            ICaso médioI     IPiorCasoI
-IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
-I  Inserçao I   O(1)   I     O(n)      I
-I           I          I               I
-I  Procura  I   O(1)   I     O(n)      I
-I           I          I               I
-I  Remoção  I   O(1)   I     O(n)      I
-I           I          I               I
-IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+            Tabelas Hash     Tabelas Hash    Arrays        Listas Encadeadas
+            (Caso médio)     (PiorCaso)
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII                 
+I  Inserçao I   O(1)   I     O(n)      I     O(1)       I       O(n)      I
+I           I          I               I                I                 I
+I  Procura  I   O(1)   I     O(n)      I     O(n)       I       O(1)      I
+I           I          I               I                I                 I
+I  Remoção  I   O(1)   I     O(n)      I     O(n)       I       O(1)      I
+I           I          I               I                I                 I
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
