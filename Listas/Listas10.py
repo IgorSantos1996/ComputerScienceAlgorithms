@@ -14,8 +14,6 @@ def in_bisect(listinha, valor_alvo):
         return in_bisect(listinha[:meio], valor_alvo)
     else:
         return in_bisect(listinha[meio+1:], valor_alvo)
-
-
 """Com a ajuda do modeulo bisect"""
 
 
@@ -27,8 +25,8 @@ def in_bisect_library(listinha, valor_alvo):
 
 
 #in_bisect([1, 2, 3, 4, 5, 5], 2)
-for word in ['aa ', 'alien', 'allen', 'zymurgy']:
-    print(word, ' in list ', in_bisect(['h', 'b', 'r', 'a', 'c', 'f'], 'c'))
+#for word in ['aa ', 'alien', 'allen', 'zymurgy']:
+ #   print(word, ' in list ', in_bisect(['h', 'b', 'r', 'a', 'c', 'f'], 'c'))
 
 
 def busca_bin_seq_itera(listinha, alvo):
@@ -44,3 +42,8 @@ def busca_bin_seq_itera(listinha, alvo):
             else:
                 primeiro = meio + 1
     return -1
+
+
+listinha = ['a', 'b', 'c']
+
+print(in_bisect_library(listinha, 'a'))

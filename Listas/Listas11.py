@@ -1,4 +1,3 @@
-
 def is_palindrome(s):
     if len(s) <= 1:
         return True
@@ -8,12 +7,16 @@ def is_palindrome(s):
 
 
 def encontra_pares_inversos(listinha):
+    lisaux = []
     for item in range(len(listinha)-1):
-        if is_palindrome(listinha[item]):
-            print(item)
+        if not is_palindrome(listinha[item]):
+            listinha.pop(item)
+        if listinha.count(listinha[item]) > 1:
+            indice = item
+            lisaux.append(listinha[indice])
+    return lisaux
 
 
-lista = ['osso', 'aba', 'bob', 'arara', 'arara', 'cara', 'osso']
+lista = ['arara', 'aba', 'bob', 'arara', 'osso', 'cara', 'osso']
 
-
-encontra_pares_inversos(lista)
+print(encontra_pares_inversos(lista))

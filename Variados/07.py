@@ -3,7 +3,6 @@ Implementar uma função media que calcule o valor médio de uma lista de númer
  
 '''
 
-
 def somarecursiva(minha_lista):
     if len(minha_lista) == 0:
         return 0
